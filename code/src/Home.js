@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View, TouchableOpacity, Text, Alert } from 'react-native';
 import CheckBox from 'react-native-checkbox';
 
 import { Actions } from 'react-native-router-flux';
@@ -31,7 +31,7 @@ class Home extends  Component {
                     return Actions.menu()
                 }
                     else {
-                    alert("You must check the box to proceed")
+                    Alert.alert("Warning", "You must accept the disclaimer to proceed")
                 }}}>
                     <Text>Proceed</Text>
                 </TouchableOpacity>

@@ -19,13 +19,14 @@ const App = () => {
         <Scene key={"root"}>
           <Scene key={"home"}
                  component={Home}
+                 hideNavBar={true}
                  title={"Home"}
+                 initial
           />
 
           <Scene key={"menu"}
                  component={Menu}
                  title={"Menu"}
-                 initial
           />
           <Scene key={"search"}
                  component={Search}
