@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
 import { Input, CardSection, Card } from "./Components/";
+import PickerRating from './PickerRating';
 
 
 export default class Post extends Component {
