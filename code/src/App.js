@@ -20,24 +20,25 @@ const App = () => {
           <Scene key={"home"}
                  component={Home}
                  title={"Home"}
-                 initial />
+          />
 
-            <Scene key={"menu"}
-                   component={Menu}
-                   title={"Menu"}
-            />
-            <Scene key={"search"}
-                   component={Search}
-                   title={"Search"}
-            />
-            <Scene key={"post"}
-                   component={Post}
-                   title={"Post"}
-            />
-            <Scene key={"result"}
-                   component={Result}
-                   title={"Result"}
-            />
+          <Scene key={"menu"}
+                 component={Menu}
+                 title={"Menu"}
+                 initial
+          />
+          <Scene key={"search"}
+                 component={Search}
+                 title={"Search"}
+          />
+          <Scene key={"post"}
+                 component={Post}
+                 title={"Post"}
+          />
+          <Scene key={"result"}
+                 component={Result}
+                 title={"Result"}
+          />
         </Scene>
     </Router>
   );

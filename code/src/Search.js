@@ -1,9 +1,12 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+import PickerCase from './PickerCase';
 
 const Search = () => {
     return(
-        <View/>
+        <View>
+            <PickerCase />
+        </View>
     );
 };
 
