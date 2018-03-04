@@ -14,6 +14,11 @@ class Home extends  Component {
         return (
             <View>
                 <Text>Disclaimer</Text>
+                <Text>If you think you are experiencing a medical emergency, call your doctor or 911 immediately.
+                    The information contained on  this website is meant to generally promote consumer awareness.
+                    Do not disregard or delay following the advice of your doctor
+                    or another qualified medical professional because of what you have read on this site.
+                </Text>
                 <View>
                     <CheckBox
                         label={'I agree'}
